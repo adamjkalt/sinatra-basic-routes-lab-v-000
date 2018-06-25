@@ -11,7 +11,7 @@ end
 end
 
    get '/favorite-song' do
-   @favorite-song = "My favorite song is __"
+   @favorite_song = "My favorite song is __"
 end
 
 end
