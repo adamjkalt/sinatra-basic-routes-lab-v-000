@@ -7,12 +7,8 @@ class App < Sinatra::Base
 
    get '/hometown' do
    @hometown = Hometown.all
-   get '/medicines' do
-   @medicines = Medicine.all
-   get '/medicines' do
-   @medicines = Medicine.all
-   get '/medicines' do
-   @medicines = Medicine.all
 
+   get '/favorite-song' do
+   @favorite-song = favorite-song.all
 
 end
